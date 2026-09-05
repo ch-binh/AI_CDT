@@ -1,0 +1,14 @@
+[workspace]
+channels = ["conda-forge"]
+name = "ME3183_AI_in_Mechatronics"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.7,<3.15"
+numpy = ">=2.5.2,<3"
+matplotlib = ">=3.11.1,<4"
+scikit-learn = ">=1.9.0,<2"
+pytorch = ">=2.13.0,<3"
